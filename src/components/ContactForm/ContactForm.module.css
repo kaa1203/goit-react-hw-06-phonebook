@@ -1,0 +1,39 @@
+.contactForm {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: 550px;
+   margin: 0 auto;
+   border: 1px solid rgb(139, 127, 127);
+   padding: 25px;
+}
+
+.inputWrapper {
+   width: 100%;
+}
+
+.formInput {
+   margin-top: 10px;
+}
+
+.formInput:focus {
+   outline-color: orange;
+}
+
+.formInput,
+.formButton {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid;
+   border-radius: 4px;
+}
+
+.formButton:hover {
+   background-color: orange;
+   box-shadow: 0 0 8px 4px orangered;
+   border: 1px solid white;
+   color: white;
+   cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.contactItem {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 550px;
+   margin: 0 auto;
+   padding: 2px;
+   text-transform: capitalize;
+}
+
+.contactItem > * {
+   width: calc(100% / 3);
+}
+
+.contactItem button {
+   padding: 6px;
+   border: 1px solid;
+   border-radius: 4px;
+   width: 65px;
+}
+
+.contactItem button:hover {
+   background-color: orange;
+   box-shadow: 0 0 8px 4px orangered;
+   border: 1px solid white;
+   color: white;
+   cursor: pointer;
+}
